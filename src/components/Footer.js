@@ -16,10 +16,7 @@ class Footer extends Component {
                         <img src={Logo} alt="logo soma" />
                     </div>
                     <div className="right">
-                        <select className="select" value={this.state.lang} onChange={this.onLangChange}>
-                            <option value="es">ES</option>
-                            <option value="en">EN</option>
-                        </select>
+                        
                        
                     </div>
                 </div>

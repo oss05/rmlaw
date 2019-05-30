@@ -16,6 +16,11 @@ import {
   DropdownItem
 } from 'reactstrap';
 
+const imagesPath = {
+  mx: 'https://cdn.icon-icons.com/icons2/1531/PNG/512/3253493-flag-mexico-icon_106775.png',
+  us: 'https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png'
+}
+
 export default class CustomNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -25,12 +30,22 @@ export default class CustomNavbar extends React.Component {
       isOpen: false
     };
   }
+  state = {
+    open: true,
+  }
+  toggleImage = () => {
+    this.setState(state => ({ open: !state.open }))
+    this.props.handelChangeIdioma()
+  }
+  getImageName = () => this.state.open ? 'mx' : 'us'
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
   render() {
+    const imageName = this.getImageName();
     return (
       <div className="prevent-nav">
         <Navbar color="#fff" light expand="md" className="custom-navbar">
@@ -110,6 +125,9 @@ export default class CustomNavbar extends React.Component {
                   <FontAwesomeIcon className="i" icon="phone" />
                   {this.props.data.navbar.home.inicio}
                 </NavLink>
+              </NavItem>
+              <NavItem className="navItem">
+                <img style={{width: '45px'}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
               </NavItem>
             </Nav>
           </Collapse>
