@@ -30,7 +30,8 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 2em;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 3em;
 }
 
 .lawyer-title{

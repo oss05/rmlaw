@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react'
 import AreaImg from '../components/AreaImg';
 import Title from '../components/Title';
+import Text from '../components/Text';
 import imgQuienesSomos from '../assets/logo-grande.jpg';
 import '../css/MainContent.css';
 
 
-class QuienesSomos extends Component {
-    state = {}
-    render() {
-
+const QuienesSomos = props => {
         return (
             <div className="mainContentAll">
                 <Title
-                    contenido='contenido.creditos.title'
+                    data={props.data}
+                    title={props.data.contenido.creditos.title}
                 />
                 <section className="downSection">
                     <div className="areaImg">
@@ -22,13 +21,17 @@ class QuienesSomos extends Component {
                         />
                     </div>
                     <div className="textContent">
-                        
+                        <Text
+                            paddingTop={20} 
+                            fontSize={14}
+                            data={props.data}
+                            p1={props.data.contenido.creditos.p1}
+                        />
                     </div>
                 </section>
 
             </div>
         );
-    }
 }
 
 export default QuienesSomos;

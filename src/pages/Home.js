@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react'
 import Img from '../components/Img';
 import Areas from '../components/Areas';
 import '../css/MainContent.css';
 
-class Home extends Component {
-    state = {  }
-    render() { 
+const Home = props => {
+
         return ( 
             <div className="mainContent">
             <Img/>
-            <Areas/>
+            <Areas
+                data={props.data}
+            />
         </div>  
          );
-    }
 }
  
 export default Home;

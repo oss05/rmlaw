@@ -26,6 +26,7 @@ import Ruben from "./Ruben";
 import Denia from "./Denia";
 import Esp from '../lang/Esp.json'
 import Eng from '../lang/Eng.json'
+import '../css/App.css';
 library.add(fas)
 
 const dataEsp = Esp
@@ -79,7 +80,7 @@ class App extends Component {
         <Route path="/erika" component={() => <Erika data={this.state.data} />} />
         <Route path="/ruben" component={() => <Ruben data={this.state.data} />} />
         <Route path="/denia" component={() => <Denia data={this.state.data} />} />
-        <Footer />
+        <Footer data={this.state.data}/>
       </div>
     </Router>);
   }

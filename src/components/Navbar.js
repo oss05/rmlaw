@@ -160,7 +160,7 @@ export default class CustomNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <img style={{ width: '45px' }} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
+                <img style={{width: 25, paddingTop: 10, marginLeft: 8, cursor: "pointer"}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
               </NavItem>
             </Nav>
           </Collapse>

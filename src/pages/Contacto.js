@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import '../css/MainContent.css';
 
-class Contacto extends Component {
-    state = {}
-    render() {
+const Contacto = props => {
         return (
             <div className="contacto">
-                
+                <h2 className="font" style={{ fontSize: 22 }}>{props.data.contenido.contacto.title}</h2>
                 <div className="contactGroup">
                     <FontAwesomeIcon className="contactGroupIcon" icon="envelope" />
                     <p className="contactGroup">Email: contacto@rmabogados.com</p>
@@ -21,7 +19,6 @@ class Contacto extends Component {
 
             </div>
         );
-    }
 }
 
 export default Contacto;
