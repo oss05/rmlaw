@@ -1,5 +1,4 @@
 import React from 'react';
-import Translate from 'react-translate-component';
 import Imagepdf from '../assets/pdf.png'
 import "../css/Publicaciones.css"
 
