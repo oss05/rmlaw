@@ -16,6 +16,11 @@ import {
   DropdownItem
 } from 'reactstrap';
 
+const imagesPath = {
+  mx: 'https://cdn.icon-icons.com/icons2/1531/PNG/512/3253493-flag-mexico-icon_106775.png',
+  us: 'https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png'
+}
+
 export default class CustomNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -25,12 +30,22 @@ export default class CustomNavbar extends React.Component {
       isOpen: false
     };
   }
+  state = {
+    open: true,
+  }
+  toggleImage = () => {
+    this.setState(state => ({ open: !state.open }))
+    this.props.handelChangeIdioma()
+  }
+  getImageName = () => this.state.open ? 'mx' : 'us'
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
   render() {
+    const imageName = this.getImageName();
     return (
       <div className="prevent-nav">
         <Navbar color="#fff" light expand="md" className="custom-navbar">
@@ -39,77 +54,80 @@ export default class CustomNavbar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="navItem">
-                <NavLink href="/"><Translate className="navCont" content="navbar.home.content"/></NavLink>
+                <NavLink href="/" className="navCont"> {this.props.data.navbar.home.inicio} </NavLink>
               </NavItem>
               <NavItem className="navItem">
                 <NavLink href="/quienessomos">
                   <FontAwesomeIcon className="i" icon="users" />
-                  <Translate className="navCont" content="navbar.quienesSomos.content"/>
+                  {this.props.data.navbar.home.inicio}
                 </NavLink>
               </NavItem>
               <NavItem className="navItem">
                 <NavLink href="/abogados">
                   <FontAwesomeIcon className="i" icon="gavel" />
-                  <Translate className="navCont" content="navbar.abogados.content"/>
+                  {this.props.data.navbar.home.inicio}
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar className="navItem">
                 <DropdownToggle nav caret>
                   <FontAwesomeIcon className="i" icon="home" />
-                  <Translate className="navCont" content="navbar.areasDePractica.content"/>
+                  {this.props.data.navbar.home.inicio}
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem href="/telecomunicaciones">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.telecom.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                   <DropdownItem href="/creditos-finanzas">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.creditos.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                   <DropdownItem href="/radiodifusion">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.radio.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                   <DropdownItem href="/derecho-corporativo">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.transaccional.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                   <DropdownItem href="/energia">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.energia.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                   <DropdownItem href="/competencia-economica">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.competenciaEconomica.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                   <DropdownItem href="/asesoria-legislativa">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.asesoria.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                   <DropdownItem href="/litigio">
                     <FontAwesomeIcon className="i" icon="caret-right" />
-                    <Translate className="navCont" content="navbar.litigio.content"/>
+                    {this.props.data.navbar.home.inicio}
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem className="navItem">
                 <NavLink href="/bolsadetrabajo">
                   <FontAwesomeIcon className="i" icon="suitcase" />
-                  <Translate className="navCont" content="navbar.bolsaDeTrabajo.content"/>
+                  {this.props.data.navbar.home.inicio}
                 </NavLink>
               </NavItem>
               <NavItem className="navItem">
                 <NavLink href="/publicaciones">
                   <FontAwesomeIcon className="i" icon="file-contract" />
-                  <Translate className="navCont" content="navbar.publicaciones.content"/>
+                  {this.props.data.navbar.home.inicio}
                 </NavLink>
               </NavItem>
               <NavItem className="navItem">
                 <NavLink href="/contacto">
                   <FontAwesomeIcon className="i" icon="phone" />
-                  <Translate className="navCont" content="navbar.contacto.content"/>
+                  {this.props.data.navbar.home.inicio}
                 </NavLink>
+              </NavItem>
+              <NavItem className="navItem">
+                <img style={{width: '45px'}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
               </NavItem>
             </Nav>
           </Collapse>
