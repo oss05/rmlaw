@@ -1,131 +1,131 @@
 {
-    navbar: {
-        home:{
-            key: "",
-            value: "",
-            content: 'Home'
+    "navbar": {
+        "home":{
+            "key": "",
+            "value": "",
+            "content": "Home"
         },
-        quienesSomos:{
-            key: "",
-            value: "",
-            content: 'Who we are'
+        "quienesSomos":{
+            "key": "",
+            "value": "",
+            "content": "Who we are"
         },
-        abogados:{
-            key: "",
-            value: "",
-            content: 'Attorneys'
+        "abogados":{
+            "key": "",
+            "value": "",
+            "content": "Attorneys"
         },
-        areasDePractica:{
-            key: "",
-            value: "",
-            content: 'Practice Areas'
+        "areasDePractica":{
+            "key": "",
+            "value": "",
+            "content": "Practice Areas"
         },
-        telecom:{
-            key: "",
-            value: "",
-            content: 'Telecommunications'
+        "telecom":{
+            "key": "",
+            "value": "",
+            "content": "Telecommunications"
         },
-        creditos:{
-            key: "",
-            value: "",
-            content: 'Credit and financing'
+        "creditos":{
+            "key": "",
+            "value": "",
+            "content": "Credit and financing"
         },
-        radio:{
-            key: "",
-            value: "",
-            content: 'Broadcast'
+        "radio":{
+            "key": "",
+            "value": "",
+            "content": "Broadcast"
         },
-        transaccional:{
-            key: "",
-            value: "",
-            content: 'Corporate and transactional law'
+        "transaccional":{
+            "key": "",
+            "value": "",
+            "content": "Corporate and transactional law"
         },
-        energia:{
-            key: "",
-            value: "",
-            content: 'Energy'
+        "energia":{
+            "key": "",
+            "value": "",
+            "content": "Energy"
         },
-        competenciaEconomica:{
-            key: "",
-            value: "",
-            content: 'Licences'
+        "competenciaEconomica":{
+            "key": "",
+            "value": "",
+            "content": "Licences"
         },
-        asesoria:{
-            key: "",
-            value: "",
-            content: 'Legal services in legislative and regulatory matters.'
+        "asesoria":{
+            "key": "",
+            "value": "",
+            "content": "Legal services in legislative and regulatory matters."
         },
-        litigio:{
-            key: "",
-            value: "",
-            content: 'Regulatory services'
+        "litigio":{
+            "key": "",
+            "value": "",
+            "content": "Regulatory services"
         },
-        bolsaDeTrabajo:{
-            key: "",
-            value: "",
-            content: 'Careers'
+        "bolsaDeTrabajo":{
+            "key": "",
+            "value": "",
+            "content": "Careers"
         },
-        publicaciones:{
-            key: "",
-            value: "",
-            content: 'Publications'
+        "publicaciones":{
+            "key": "",
+            "value": "",
+            "content": "Publications"
         },
-        contacto:{
-            key: "",
-            value: "",
-            content: 'Contact'
-        },
+        "contacto":{
+            "key": "",
+            "value": "",
+            "content": "Contact"
+        }
     },
-    contenido: {
-        subtitle: 'RM&A / Ruíz Moreno y Asociados',
-        home:{
-            key: "",
-            value: ""
+    "contenido": {
+        "subtitle": "RM&A / Ruíz Moreno y Asociados",
+        "home": {
+            "key": "",
+            "value": ""
         },
-        quienesSomos:{
-            key: "",
-            value: "",
-            title: 'Who We Are',
-            p1: 'We are a law firm specialized in complex and day-to-day commercial, corporate and regulatory matters of regulated industries. ',
-            p2:'Our law firm represents clients in every service of the telecommunications and broadcast sectors, including several of the major domestic and international telecommunications, media and technology companies in Mexico, aside from clients in the energy sector and other regulated industries. ',
-            p3:"Throughout its history, RM&A has represented domestic and international clients in their entry into the Mexican telecoms, media end technology markets (“TMT”), including matters such as licensing, access to services and infrastructure, interconnection, infrastructure deployment, complex regulatory matters as well as corporate and asset restructurings, antitrust filings, financings and mergers and acquisitions.",
-            p4:"We distinguish ourselves for providing high quality and effective legal services with personal attention and establishing long term relationships with our clients and contributing to their growth."
+        "quienesSomos":{
+            "key": "",
+            "value": "",
+            "title": "Who We Are",
+            "p1": "We are a law firm specialized in complex and day-to-day commercial, corporate and regulatory matters of regulated industries. ",
+            "p2":"Our law firm represents clients in every service of the telecommunications and broadcast sectors, including several of the major domestic and international telecommunications, media and technology companies in Mexico, aside from clients in the energy sector and other regulated industries. ",
+            "p3":"Throughout its history, RM&A has represented domestic and international clients in their entry into the Mexican telecoms, media end technology markets (“TMT”), including matters such as licensing, access to services and infrastructure, interconnection, infrastructure deployment, complex regulatory matters as well as corporate and asset restructurings, antitrust filings, financings and mergers and acquisitions.",
+           "p4":"We distinguish ourselves for providing high quality and effective legal services with personal attention and establishing long term relationships with our clients and contributing to their growth."
         },
-        abogados:{
-            key: "",
-            value: "",
-            title: 'ABOGADOS',
-            rol: 'Partner',
-            rol2: 'Associate',
-            rol3: 'Associate',
-            rol4: 'Law Clerk',
-            sintesis: 'Síntesis Curricular',
-            ivan: 'Iván Ruiz Moreno (partner). J.D. Instituto Tecnológico Autónomo de México (ITAM), Master’s in Law (LLM), Duke University, Telecommunications diploma (ITAM), diplomas in oil, gas and electricity from the RMMLF and EUCI.He is founding partner at Ruiz Moreno y Asociados and has more than twenty years of experience in the areas of regulated industries, corporate and commercial law.Throughout his career he has worked as public officer of the former Mexican Federal Telecommunications Commission, general counsel for concessionaires and resellers of telecommunications services, member of COFETEL’s Consultation Council, parliamentary counsel and outside legal counsel/board member for domestic and international companies.Throughout the last twelve years in areas such as telecommunications, broadcast, corporate law, contracts, anti-trust and the electric sector.Mr. Ruiz is currently an independent board member at CFE Generación II, one of the recently incorporated subsidiaries of Mexico’s government owned power utility CFE.Mr. Ruiz is also a board member of Mexico’s Telecommunications Law Institute (IDET) of which he was president, while he is also a member of The Federal Communications Bar Association, the Association of International Petroleum Negotiators and has written different articles and participated in television, radio interviews and conferences for matters related to the telecommunications sector.His practice has been recognized by several specialized publications in the telecommunications sector including Leaders Guide, the Mexican newspaper Reforma  and Chambers & Partners for which he published its Telecommunications Media and Technology Chapter for Mexico in the year 2016.Languages: Spanish, English (at native speaker level), intermediate Mandarin and French.',
-            eli: 'Eli Manuel Ramírez (associate). Eli is a senior associate who has a Master’s degree in information and communication technologies law from the Maestría en Derecho de las Tecnologías de la Información y Comunicación (MDTIC) and a JD from UNAM in Mexico City. Prior to joining RM&A, he was part of Nextel Mexico’s regulatory team, and the regulatory and compliance officer for a public Mexican telecommunications carrier. Eli provides advice to clients in the telecoms, broadcast and technology sectors in areas such as regulation, compliance, privacy law, antitrust and commercial law in general. Languages: Spanish and English.'
+        "abogados":{
+            "key": "",
+            "value": "",
+            "title": "ABOGADOS",
+            "rol": "Partner",
+            "rol2": "Associate",
+            "rol3": "Associate",
+            "rol4": "Law Clerk",
+            "sintesis": "Síntesis Curricular",
+            "ivan": "Iván Ruiz Moreno (partner). J.D. Instituto Tecnológico Autónomo de México (ITAM), Master’s in Law (LLM), Duke University, Telecommunications diploma (ITAM), diplomas in oil, gas and electricity from the RMMLF and EUCI.He is founding partner at Ruiz Moreno y Asociados and has more than twenty years of experience in the areas of regulated industries, corporate and commercial law.Throughout his career he has worked as public officer of the former Mexican Federal Telecommunications Commission, general counsel for concessionaires and resellers of telecommunications services, member of COFETEL’s Consultation Council, parliamentary counsel and outside legal counsel/board member for domestic and international companies.Throughout the last twelve years in areas such as telecommunications, broadcast, corporate law, contracts, anti-trust and the electric sector.Mr. Ruiz is currently an independent board member at CFE Generación II, one of the recently incorporated subsidiaries of Mexico’s government owned power utility CFE.Mr. Ruiz is also a board member of Mexico’s Telecommunications Law Institute (IDET) of which he was president, while he is also a member of The Federal Communications Bar Association, the Association of International Petroleum Negotiators and has written different articles and participated in television, radio interviews and conferences for matters related to the telecommunications sector.His practice has been recognized by several specialized publications in the telecommunications sector including Leaders Guide, the Mexican newspaper Reforma  and Chambers & Partners for which he published its Telecommunications Media and Technology Chapter for Mexico in the year 2016.Languages: Spanish, English (at native speaker level), intermediate Mandarin and French.",
+            "eli": "Eli Manuel Ramírez (associate). Eli is a senior associate who has a Master’s degree in information and communication technologies law from the Maestría en Derecho de las Tecnologías de la Información y Comunicación (MDTIC) and a JD from UNAM in Mexico City. Prior to joining RM&A, he was part of Nextel Mexico’s regulatory team, and the regulatory and compliance officer for a public Mexican telecommunications carrier. Eli provides advice to clients in the telecoms, broadcast and technology sectors in areas such as regulation, compliance, privacy law, antitrust and commercial law in general. Languages: Spanish and English."
             ,
-            erika: 'Erika Estrever (associate). Erika is a senior associate with a Master’s degree in economic law from the Universidad Panamericana and a JD from ITAM. She has over ten years of experience in the TMT sector, particularly in telecommunications, broadcast, data privacy, administrative and real estate law. Prior to joining RM&A, Erika worked as a legal and regulatory counsel for Grupo Televisa and as a legal adviser to several domestic and international companies in the TMT sector, including broadcast spectrum auctions. Erika attends to clients in the telecoms, broadcast and technology sectors in areas such as regulation, compliance, privacy, real estate, administrative and consumer procurement law.Languages: Spanish and English.',
-            ruben: 'Rubén Gutiérrez Díaz.  (associate) Rubén is a senior associate with a Master’s degree in international trade and commerce from the Instituto Superior de Derecho y Economía (ISDE) in Madrid, Spain, a JD from the University of Xalapa in Mexico and diplomas in Corporate Law from ITAM and ISDE.Rubén works in the areas of corporate law, trademarks, contracts and fintech and prior to joining RM&A he worked at the law firm of Benow Partners in Madrid, Spain and at the real estate firm of Jones Lang Lasalle (JLL) as well as in house counsel for a publicly traded lumber company with real estate and plantations in Mexico and Latin America.Languages: Spanish and English.',
-            denia: 'Denia Resendiz. (law Clerk). Denia is a fourth year law student at UNAM and works in the areas of telecommunications, trademarks, corporate and commercial law. Languages: Spanish and English.',
+            "erika": "Erika Estrever (associate). Erika is a senior associate with a Master’s degree in economic law from the Universidad Panamericana and a JD from ITAM. She has over ten years of experience in the TMT sector, particularly in telecommunications, broadcast, data privacy, administrative and real estate law. Prior to joining RM&A, Erika worked as a legal and regulatory counsel for Grupo Televisa and as a legal adviser to several domestic and international companies in the TMT sector, including broadcast spectrum auctions. Erika attends to clients in the telecoms, broadcast and technology sectors in areas such as regulation, compliance, privacy, real estate, administrative and consumer procurement law.Languages: Spanish and English.",
+            "ruben": "Rubén Gutiérrez Díaz.  (associate) Rubén is a senior associate with a Master’s degree in international trade and commerce from the Instituto Superior de Derecho y Economía (ISDE) in Madrid, Spain, a JD from the University of Xalapa in Mexico and diplomas in Corporate Law from ITAM and ISDE.Rubén works in the areas of corporate law, trademarks, contracts and fintech and prior to joining RM&A he worked at the law firm of Benow Partners in Madrid, Spain and at the real estate firm of Jones Lang Lasalle (JLL) as well as in house counsel for a publicly traded lumber company with real estate and plantations in Mexico and Latin America.Languages: Spanish and English.",
+            "denia": "Denia Resendiz. (law Clerk). Denia is a fourth year law student at UNAM and works in the areas of telecommunications, trademarks, corporate and commercial law. Languages: Spanish and English."
         },
-        areasDePractica:{
-            key: "",
-            value: "",
-            content: 'Áreas de práctica'
+        "areasDePractica":{
+            "key": "",
+            "value": "",
+            "content": "Áreas de práctica"
         },
-        telecom:{
-            key: "",
-            value: "",
-            title: 'TELECOMUNICATIONS',
-            p1: ' Our telecommunications, broadcast and IT services are position among the best and most complete in the country, since we provide legal services from a legal, administrative, corporate and litigation perspective.',
-            p2:'We have participated in all spectrum auctions in Mexico, whether for microwave, fixed or wireless services and our experience included the representation of our clients in a wide variety of services ranging from payphones to satellite services. ',
-            p3:'Within the telecommunications, audiovisual and broadcast sectors we attend to clients in the regulatory, corporate, licensing, transactional, anti-trust and litigation areas.',
-            p5:'• Durante los últimos trece años hemos tenido a nuestro cargo la elaboración y obtención de concesiones para la instalación, operación y explotación de redes públicas de telecomunicaciones y uso del espectro radioeléctrico así como para permisos de comercialización (incluyendo MVNOs) y registros para prestar servicios de valor agregado.',
-            p6:'• Asimismo somos conocedores expertos de los criterios de la extinta Comisión Federal de Telecomunicaciones, la Secretaría de Comunicaciones (“SCT”) y el Instituto Federal de Telecomunicaciones (“IFT”), lo cual nos permite desahogar los procedimientos de solicitud o adquisición de concesiones, permisos, autorizaciones y registros de servicios de valor agregado con mayor certeza en su resultado.',
-            p7:'• Dentro de nuestra experiencia se encuentra el haber participado, ya sea como parte de la autoridad o en representación de clientes de clientes, en todas las licitaciones de espectro radioeléctrico que se han llevado a cabo en México desde la publicación de la antigua Ley Federal de Telecomunicaciones',
-            p8:'Servicios regulatorios.',
-            p9:'• Nuestra firma representa a clientes en la atención de asuntos regulatorios del día a día como son: el cumplimiento de obligaciones, atención y respuesta a visitas de verificación, impugnación de multas, promoción y respuesta a desacuerdos de interconexión, licitaciones, quejas, atención a reuniones con funcionarios del IFT o de la SCT, inscripción de registros, negociación y elaboración de contratos, negociaciones ante la CFE para el uso de postería, representación ante comités organizados por el IFT, la SCT o autoridades delegacionales o municipales, etc. ',
-            p10:'• Asimismo, representamos a nuestros clientes en aspectos regulatorios y corporativos de transacciones de fusiones y adquisiciones dentro del sector telecomunicaciones y radiodifusión y modificaciones a sus títulos de concesión.',
-            p11:'Entre nuestras actividades dentro del sector telecomunicaciones se encuentra la representación de clientes en las áreas de servicios satelitales fijos y móviles, telefonía fija y móvil, banda ancha fija y móvil, televisión de paga por cable, MVNOs, redes de transporte, revendedores y prestadores de servicios de valor agregado, licitaciones de espectro, licitaciones públicas para el suministro de servicios de telecomunicaciones, contratación y suministro de servicios a otros concesionarios, compra e intercambio de infraestructura, compartición de torres y sitios, fusiones y adquisiciones, solicitudes, negociaciones y desacuerdos de interconexión, solicitudes de concesiones, autorizaciones y permisos federales, estatales o locales, cumplimiento de obligaciones regulatorias, representación ante el IFT, SCT y organizaciones del sector, entre otras varias actividades.',
+        "telecom":{
+            "key": "",
+            "value": "",
+            "title": "TELECOMUNICATIONS",
+            "p1": "Our telecommunications, broadcast and IT services are position among the best and most complete in the country, since we provide legal services from a legal, administrative, corporate and litigation perspective.",
+            "p2":"We have participated in all spectrum auctions in Mexico, whether for microwave, fixed or wireless services and our experience included the representation of our clients in a wide variety of services ranging from payphones to satellite services.",
+            "p3":"Within the telecommunications, audiovisual and broadcast sectors we attend to clients in the regulatory, corporate, licensing, transactional, anti-trust and litigation areas.",
+            "p5":"• Durante los últimos trece años hemos tenido a nuestro cargo la elaboración y obtención de concesiones para la instalación, operación y explotación de redes públicas de telecomunicaciones y uso del espectro radioeléctrico así como para permisos de comercialización (incluyendo MVNOs) y registros para prestar servicios de valor agregado.",
+            "p6":"• Asimismo somos conocedores expertos de los criterios de la extinta Comisión Federal de Telecomunicaciones, la Secretaría de Comunicaciones (“SCT”) y el Instituto Federal de Telecomunicaciones (“IFT”), lo cual nos permite desahogar los procedimientos de solicitud o adquisición de concesiones, permisos, autorizaciones y registros de servicios de valor agregado con mayor certeza en su resultado.",
+            "p7":"• Dentro de nuestra experiencia se encuentra el haber participado, ya sea como parte de la autoridad o en representación de clientes de clientes, en todas las licitaciones de espectro radioeléctrico que se han llevado a cabo en México desde la publicación de la antigua Ley Federal de Telecomunicaciones",
+            "p8":"Servicios regulatorios.",
+            "p9":"• Nuestra firma representa a clientes en la atención de asuntos regulatorios del día a día como son: el cumplimiento de obligaciones, atención y respuesta a visitas de verificación, impugnación de multas, promoción y respuesta a desacuerdos de interconexión, licitaciones, quejas, atención a reuniones con funcionarios del IFT o de la SCT, inscripción de registros, negociación y elaboración de contratos, negociaciones ante la CFE para el uso de postería, representación ante comités organizados por el IFT, la SCT o autoridades delegacionales o municipales, etc. ",
+            "p10":"• Asimismo, representamos a nuestros clientes en aspectos regulatorios y corporativos de transacciones de fusiones y adquisiciones dentro del sector telecomunicaciones y radiodifusión y modificaciones a sus títulos de concesión.",
+            "p11":"Entre nuestras actividades dentro del sector telecomunicaciones se encuentra la representación de clientes en las áreas de servicios satelitales fijos y móviles, telefonía fija y móvil, banda ancha fija y móvil, televisión de paga por cable, MVNOs, redes de transporte, revendedores y prestadores de servicios de valor agregado, licitaciones de espectro, licitaciones públicas para el suministro de servicios de telecomunicaciones, contratación y suministro de servicios a otros concesionarios, compra e intercambio de infraestructura, compartición de torres y sitios, fusiones y adquisiciones, solicitudes, negociaciones y desacuerdos de interconexión, solicitudes de concesiones, autorizaciones y permisos federales, estatales o locales, cumplimiento de obligaciones regulatorias, representación ante el IFT, SCT y organizaciones del sector, entre otras varias actividades.",
         },
         creditos:{
             key: "",
