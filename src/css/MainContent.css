@@ -189,7 +189,7 @@ button{
 
     .badgeContent {
         /* border: solid 1px yellow; */
-        width: auto !important;
+        
         height: 90%;
         display: flex;
         justify-content: flex-end;
@@ -330,6 +330,6 @@ button{
         /* border: solid 1px #ff00e1; */
         width: 80%;
         height: 100%;
-        /* margin: 2em 0; */
+        margin-bottom: 0 !important;
     }
   }

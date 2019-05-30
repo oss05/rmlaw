@@ -28,23 +28,28 @@ export default class CustomNavbar extends React.Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
-    };
+      collapsed: true
+  };
   }
-  state = {
-    open: true,
-  }
+
   toggleImage = () => {
     this.setState(state => ({ open: !state.open }))
     this.props.handelChangeIdioma()
   }
+
   getImageName = () => this.state.open ? 'mx' : 'us'
 
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
-    });
+      collapsed: !this.state.collapsed
+  });
   }
+  
+  handleClick = (e) => {
+    this.setState({
+        collapsed: true
+    });
+}
   render() {
     const imageName = this.getImageName();
     return (
@@ -52,18 +57,18 @@ export default class CustomNavbar extends React.Component {
         <Navbar color="#fff" light expand="md" className="custom-navbar">
           <Link to="/"><img src={Logorma} alt="logo-rma" /></Link>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="navItem">
                 <NavLink>
-                  <Link className="navCont" to="/">
+                  <Link onClick={this.handleClick} className="navCont" to="/">
                     {this.props.data.navbar.home.content}
                   </Link>
                 </NavLink>
               </NavItem>
               <NavItem className="navItem">
                 <NavLink>
-                  <Link className="navCont" to="/quienessomos">
+                  <Link onClick={this.handleClick} className="navCont" to="/quienessomos">
                     <FontAwesomeIcon className="i" icon="users" />
                     {this.props.data.navbar.quienesSomos.content}
                   </Link>
@@ -71,7 +76,7 @@ export default class CustomNavbar extends React.Component {
               </NavItem>
               <NavItem className="navItem">
                 <NavLink >
-                  <Link className="navCont" to="/abogados">
+                  <Link onClick={this.handleClick} className="navCont" to="/abogados">
                     <FontAwesomeIcon className="i" icon="gavel" />
                     {this.props.data.navbar.abogados.content}
                   </Link>
@@ -85,49 +90,49 @@ export default class CustomNavbar extends React.Component {
                   </Link>
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <Link to="/telecomunicaciones">
+                  <Link onClick={this.handleClick} to="/telecomunicaciones">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.telecom.content}
                     </DropdownItem>
                   </Link>
-                  <Link to="/creditos-finanzas">
+                  <Link onClick={this.handleClick} to="/creditos-finanzas">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.creditos.content}
                     </DropdownItem>
                   </Link>
-                  <Link to="/radiodifusion">
+                  <Link onClick={this.handleClick} to="/radiodifusion">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.radio.content}
                     </DropdownItem>
                   </Link>
-                  <Link to="/derecho-corporativo">
+                  <Link onClick={this.handleClick} to="/derecho-corporativo">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.transaccional.content}
                     </DropdownItem>
                   </Link>
-                  <Link to="/energia">
+                  <Link onClick={this.handleClick} to="/energia">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.energia.content}
                     </DropdownItem>
                   </Link>
-                  <Link to="/competencia-economica">
+                  <Link onClick={this.handleClick} to="/competencia-economica">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.competenciaEconomica.content}
                     </DropdownItem>
                   </Link>
-                  <Link to="/asesoria-legislativa">
+                  <Link onClick={this.handleClick} to="/asesoria-legislativa">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.asesoria.content}
                     </DropdownItem>
                   </Link>
-                  <Link to="/litigio">
+                  <Link onClick={this.handleClick} to="/litigio">
                     <DropdownItem className="navCont">
                       <FontAwesomeIcon className="i" icon="caret-right" />
                       {this.props.data.navbar.litigio.content}
@@ -137,7 +142,7 @@ export default class CustomNavbar extends React.Component {
               </UncontrolledDropdown>
               <NavItem className="navItem">
                 <NavLink>
-                  <Link className="navCont" to="/bolsadetrabajo">
+                  <Link onClick={this.handleClick} className="navCont" to="/bolsadetrabajo">
                     <FontAwesomeIcon className="i" icon="suitcase" />
                     {this.props.data.navbar.bolsaDeTrabajo.content}
                   </Link>
@@ -145,7 +150,7 @@ export default class CustomNavbar extends React.Component {
               </NavItem>
               <NavItem className="navItem">
                 <NavLink>
-                  <Link className="navCont" to="/publicaciones">
+                  <Link onClick={this.handleClick} className="navCont" to="/publicaciones">
                     <FontAwesomeIcon className="i" icon="file-contract" />
                     {this.props.data.navbar.publicaciones.content}
                   </Link>
@@ -153,14 +158,14 @@ export default class CustomNavbar extends React.Component {
               </NavItem>
               <NavItem className="navItem">
                 <NavLink>
-                  <Link className="navCont" to="/contacto">
+                  <Link onClick={this.handleClick} className="navCont" to="/contacto">
                     <FontAwesomeIcon className="i" icon="phone" />
                     {this.props.data.navbar.contacto.content}
                   </Link>
                 </NavLink>
               </NavItem>
-              <NavItem className="navItem">
-                <img style={{width: 25, paddingTop: 10, marginLeft: 8, cursor: "pointer"}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
+              <NavItem onClick={this.handleClick} className="navItem">
+                <img  style={{width: 25, paddingTop: 10, marginLeft: 8, cursor: "pointer"}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
               </NavItem>
             </Nav>
           </Collapse>

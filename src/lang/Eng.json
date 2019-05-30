@@ -141,10 +141,10 @@
             "p1": "We provide services in corporate, contract and commercial law for matters such as the incorporation/organization of business organizations, mergers and acquisitions, drafting, negotiation and structuring of contracts and transactions and commercial matters in general.",
             "p2": "Our practice in this area extends to both regulated and non-regulated industries with the advantage of us being aware of the complexities that regulated industries face in all aspects of their operations, including corporate law and governance."
         },
-    "energi":{
+    "energia":{
         "ke": "",
         "valu": "",
-        "title": "ENERG",
+        "title": "ENERGY",
         "p": "Electricity and gas.",
         "p2":"After being closed to domestic and foreign investment for over eighty years, Mexico’s energy sector has transformed itself to allow the participation of private enterprise in power generation and the commercialization of electricity, the exploration and exploitation of oil and gas fields as well as transportation, distribution, production and sale of fuels and petrochemicals.",
         "p3":"It is foreseen that the above mentioned reform along with Mexican government investments in the oil sector will help the country to recover its hydrocarbons production, increase proven reserves and increase the use of gas for the generation of power leading to lower electricity rates.",
@@ -166,13 +166,13 @@
         "litigio":{
             "key": "",
             "value": "",
-            "title": "LITIGIO ADMINISTRATIVO, FISCAL Y CONSTITUCIONAL",
+            "title": " ADMINISTRATIVE, FISCAL AND CONSTITUTIONAL LITIGATION",
             "p1": "Our law firm represents clients in day to day regulatory matters such as compliance, attending and responding to the Mexican regulator’s inspections and requests, appealing the regulator’s fines, filing and responding to interconnection disputes, public bids, complaints, meetings with IFT or SCT officers, registration filings, negotiation and drafting of agreements, negotiations before CFE for the use of pole, representation before work groups or committees organized by the Mexican Regulator “IFT”, Mexico’s Ministry of Communications and Transports, the Mexican President’s Office or Mexico’s Congress. We also represent clients in regulatory and corporate matters related to mergers and acquisitions within the telecommunications, broadcast and amendment to their services licenses. Within our activities in the Mexican telecommunications sector we represent clients in the areas of fixed and mobile satellite services, fixed and mobile telephony, fixed and wireless broadband, cable TV, MVNOs, transport networks, resellers and value added service providers, public bids for the provision of telecommunications services, infrastructure purchase, use or exchange agreements, sharing of towers and ducts, mergers and acquisitions, interconnection requests and disputes, applications for federal, state or local concessions, permits or authorizations, compliance and representation before sector organizations and authorities, among other matters."
         },
         "bolsaDeTrabajo":{
             "key": "",
             "value": "",
-            "title": "BOLSA DE TRABAJO",
+            "title": "CAREERS",
             "subtitle": "ENVÍANOS TU CURRICULUM",
             "p1": "Si requieres más información, llena este formulario. Recibirás una respuesta a la brevedad.",
             "p2": "Al enviar este formulario, estás aceptando nuestra política de privacidad."
@@ -185,7 +185,7 @@
         "contacto":{
             "key": "",
             "value": "",
-            "title": "CONTÁCTANOS"
+            "title": "CONTACT US"
         }
     },
     "footer": {
